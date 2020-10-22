@@ -1,1 +1,2 @@
-# Project1SL
+# Project 1, Scripting Language- F->C C->F
+For project 1 I created program that converts Fahrenheit to Celsius and vice versa. The code works when you enter your temperature (ex. 114F or 27C.) The code allows you to enter “F” or “C” in lowercase as well since it will convert it to uppercase on its own. After you enter your temperature the code will convert it into Fahrenheit or Celsius, depends on what your temperature was at first.
