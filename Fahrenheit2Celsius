@@ -1,0 +1,14 @@
+temp = input("Enter the temperature you'd like converted. (ex. 44F, 111C) : ")
+degree = int(temp[:-1])
+convention1 = temp[-1]
+
+if convention1.upper() == "C":
+    conversion = int(round((9 * degree) / 5 + 32))
+    convention2 = "Fahrenheit"
+elif convention1.upper() == "F":
+    conversion = int(round((degree - 32) * 5 / 9))
+    convention2 = "Celsius"
+else:
+    print("Entry not valid.")
+    quit()
+print("Your temperature in" , convention2, "is" , conversion, "degrees.")
